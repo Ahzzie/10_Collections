@@ -37,7 +37,7 @@ namespace _10_Collections
             Assert.IsTrue(id2 != 0);
             Assert.IsTrue(id2 != id1);
         }
-
+        
         [TestMethod]
         public void CanSaveAndLoad()
         {
@@ -87,7 +87,7 @@ namespace _10_Collections
             stocks = repository.FindAllStocks();
             Assert.AreEqual(0, stocks.Count);
         }
-
         
     }
+
 }
